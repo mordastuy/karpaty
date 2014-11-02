@@ -1,0 +1,238 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2014-10-19 06:58:19 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: name ~ APPPATH\views\Widgets\w_formsend.php [ 13 ] in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:13
+2014-10-19 06:58:19 --- DEBUG: #0 Z:\home\karpaty\www\application\views\Widgets\w_formsend.php(13): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\karpaty...', 13, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#2 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#3 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\karpaty\www\application\views\Frontend\cooperation\v_cooperation_f.php(36): Kohana_View->__toString()
+#5 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#6 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#7 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#8 Z:\home\karpaty\www\application\views\Frontend\v_base_frontend.php(133): Kohana_View->__toString()
+#9 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#10 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#11 Z:\home\karpaty\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#12 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#13 [internal function]: Kohana_Controller->execute()
+#14 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Cooperation))
+#15 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#16 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#17 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#18 {main} in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:13
+2014-10-19 06:59:14 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: name ~ APPPATH\views\Widgets\w_formsend.php [ 12 ] in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:12
+2014-10-19 06:59:14 --- DEBUG: #0 Z:\home\karpaty\www\application\views\Widgets\w_formsend.php(12): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\karpaty...', 12, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#2 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#3 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\karpaty\www\application\views\Frontend\cooperation\v_cooperation_f.php(36): Kohana_View->__toString()
+#5 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#6 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#7 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#8 Z:\home\karpaty\www\application\views\Frontend\v_base_frontend.php(133): Kohana_View->__toString()
+#9 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#10 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#11 Z:\home\karpaty\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#12 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#13 [internal function]: Kohana_Controller->execute()
+#14 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Cooperation))
+#15 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#16 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#17 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#18 {main} in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:12
+2014-10-19 07:10:34 --- CRITICAL: ErrorException [ 1 ]: Call to undefined function _strtolower() ~ APPPATH\views\Widgets\w_formsend.php [ 27 ] in file:line
+2014-10-19 07:10:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-10-19 07:10:48 --- CRITICAL: ErrorException [ 1 ]: Call to undefined function _strtolower() ~ APPPATH\views\Widgets\w_formsend.php [ 27 ] in file:line
+2014-10-19 07:10:48 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-10-19 07:29:06 --- CRITICAL: ErrorException [ 8 ]: Undefined index: town ~ APPPATH\classes\Controller\Frontend\send.php [ 34 ] in Z:\home\karpaty\www\application\classes\Controller\Frontend\send.php:34
+2014-10-19 07:29:06 --- DEBUG: #0 Z:\home\karpaty\www\application\classes\Controller\Frontend\send.php(34): Kohana_Core::error_handler(8, 'Undefined index...', 'Z:\home\karpaty...', 34, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(84): Controller_Frontend_Send->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Send))
+#4 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\karpaty\www\application\classes\Controller\Frontend\send.php:34
+2014-10-19 07:51:42 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: from_form ~ APPPATH\classes\Controller\Frontend\send.php [ 46 ] in Z:\home\karpaty\www\application\classes\Controller\Frontend\send.php:46
+2014-10-19 07:51:42 --- DEBUG: #0 Z:\home\karpaty\www\application\classes\Controller\Frontend\send.php(46): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\karpaty...', 46, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(84): Controller_Frontend_Send->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Send))
+#4 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\karpaty\www\application\classes\Controller\Frontend\send.php:46
+2014-10-19 07:56:32 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: from_form ~ APPPATH\classes\Controller\Frontend\send.php [ 46 ] in Z:\home\karpaty\www\application\classes\Controller\Frontend\send.php:46
+2014-10-19 07:56:32 --- DEBUG: #0 Z:\home\karpaty\www\application\classes\Controller\Frontend\send.php(46): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\karpaty...', 46, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(84): Controller_Frontend_Send->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Send))
+#4 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\karpaty\www\application\classes\Controller\Frontend\send.php:46
+2014-10-19 09:11:58 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: formsend ~ APPPATH\views\Widgets\w_formsend.php [ 29 ] in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:29
+2014-10-19 09:11:58 --- DEBUG: #0 Z:\home\karpaty\www\application\views\Widgets\w_formsend.php(29): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\karpaty...', 29, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#2 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#3 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\karpaty\www\application\views\Frontend\products\v_products_f.php(71): Kohana_View->__toString()
+#5 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#6 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#7 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#8 Z:\home\karpaty\www\application\views\Frontend\v_base_frontend.php(133): Kohana_View->__toString()
+#9 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#10 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#11 Z:\home\karpaty\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#12 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#13 [internal function]: Kohana_Controller->execute()
+#14 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Products))
+#15 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#16 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#17 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#18 {main} in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:29
+2014-10-19 09:11:58 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: formsend ~ APPPATH\views\Widgets\w_formsend.php [ 29 ] in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:29
+2014-10-19 09:11:58 --- DEBUG: #0 Z:\home\karpaty\www\application\views\Widgets\w_formsend.php(29): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\karpaty...', 29, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#2 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#3 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\karpaty\www\application\views\Frontend\v_base_frontend.php(206): Kohana_View->__toString()
+#5 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#6 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#7 Z:\home\karpaty\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Products))
+#11 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:29
+2014-10-19 09:12:32 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: formsend ~ APPPATH\views\Widgets\w_formsend.php [ 29 ] in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:29
+2014-10-19 09:12:32 --- DEBUG: #0 Z:\home\karpaty\www\application\views\Widgets\w_formsend.php(29): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\karpaty...', 29, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#2 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#3 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\karpaty\www\application\views\Frontend\products\v_products_f.php(71): Kohana_View->__toString()
+#5 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#6 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#7 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#8 Z:\home\karpaty\www\application\views\Frontend\v_base_frontend.php(133): Kohana_View->__toString()
+#9 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#10 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#11 Z:\home\karpaty\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#12 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#13 [internal function]: Kohana_Controller->execute()
+#14 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Products))
+#15 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#16 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#17 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#18 {main} in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:29
+2014-10-19 09:12:32 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: formsend ~ APPPATH\views\Widgets\w_formsend.php [ 29 ] in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:29
+2014-10-19 09:12:32 --- DEBUG: #0 Z:\home\karpaty\www\application\views\Widgets\w_formsend.php(29): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\karpaty...', 29, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#2 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#3 Z:\home\karpaty\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\karpaty\www\application\views\Frontend\v_base_frontend.php(206): Kohana_View->__toString()
+#5 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#6 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#7 Z:\home\karpaty\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Products))
+#11 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\karpaty\www\application\views\Widgets\w_formsend.php:29
+2014-10-19 09:25:57 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected T_DOUBLE_ARROW, expecting ',' or ';' ~ APPPATH\views\Frontend\services\v_services_f.php [ 71 ] in file:line
+2014-10-19 09:25:57 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-10-19 09:26:09 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected $end ~ APPPATH\views\Frontend\services\v_services_f.php [ 71 ] in file:line
+2014-10-19 09:26:09 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-10-19 10:24:42 --- CRITICAL: Kohana_Exception [ 0 ]: Not an image or invalid image: Z:\home\karpaty\www ~ MODPATH\image\classes\Kohana\Image.php [ 107 ] in Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php:91
+2014-10-19 10:24:42 --- DEBUG: #0 Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php(91): Kohana_Image->__construct('')
+#1 Z:\home\karpaty\www\modules\image\classes\Kohana\Image.php(54): Kohana_Image_GD->__construct('')
+#2 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(220): Kohana_Image::factory('')
+#3 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(56): Controller_Backend_Photogallery->_upload_img('')
+#4 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(84): Controller_Backend_Photogallery->action_add()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Backend_Photogallery))
+#7 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php:91
+2014-10-19 10:25:07 --- CRITICAL: Kohana_Exception [ 0 ]: Not an image or invalid image: Z:\home\karpaty\www ~ MODPATH\image\classes\Kohana\Image.php [ 107 ] in Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php:91
+2014-10-19 10:25:07 --- DEBUG: #0 Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php(91): Kohana_Image->__construct('')
+#1 Z:\home\karpaty\www\modules\image\classes\Kohana\Image.php(54): Kohana_Image_GD->__construct('')
+#2 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(220): Kohana_Image::factory('')
+#3 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(56): Controller_Backend_Photogallery->_upload_img('')
+#4 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(84): Controller_Backend_Photogallery->action_add()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Backend_Photogallery))
+#7 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php:91
+2014-10-19 10:27:24 --- CRITICAL: Kohana_Exception [ 0 ]: Cannot delete image model because it is not loaded. ~ MODPATH\orm\classes\Kohana\ORM.php [ 1434 ] in Z:\home\karpaty\www\application\classes\Model\subpage.php:179
+2014-10-19 10:27:24 --- DEBUG: #0 Z:\home\karpaty\www\application\classes\Model\subpage.php(179): Kohana_ORM->delete()
+#1 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(192): Model_Subpage->delete_subpage_image('190')
+#2 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(84): Controller_Backend_Photogallery->action_delete()
+#3 [internal function]: Kohana_Controller->execute()
+#4 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Backend_Photogallery))
+#5 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#7 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#8 {main} in Z:\home\karpaty\www\application\classes\Model\subpage.php:179
+2014-10-19 10:30:47 --- CRITICAL: Kohana_Exception [ 0 ]: Not an image or invalid image: Z:\home\karpaty\www ~ MODPATH\image\classes\Kohana\Image.php [ 107 ] in Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php:91
+2014-10-19 10:30:47 --- DEBUG: #0 Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php(91): Kohana_Image->__construct('')
+#1 Z:\home\karpaty\www\modules\image\classes\Kohana\Image.php(54): Kohana_Image_GD->__construct('')
+#2 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(220): Kohana_Image::factory('')
+#3 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(56): Controller_Backend_Photogallery->_upload_img('')
+#4 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(84): Controller_Backend_Photogallery->action_add()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Backend_Photogallery))
+#7 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php:91
+2014-10-19 10:33:34 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: filename ~ APPPATH\classes\Controller\Backend\photogallery.php [ 70 ] in Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php:70
+2014-10-19 10:33:34 --- DEBUG: #0 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(70): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\karpaty...', 70, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(84): Controller_Backend_Photogallery->action_add()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Backend_Photogallery))
+#4 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php:70
+2014-10-19 10:34:15 --- CRITICAL: Kohana_Exception [ 0 ]: Not an image or invalid image: Z:\home\karpaty\www ~ MODPATH\image\classes\Kohana\Image.php [ 107 ] in Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php:91
+2014-10-19 10:34:15 --- DEBUG: #0 Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php(91): Kohana_Image->__construct('')
+#1 Z:\home\karpaty\www\modules\image\classes\Kohana\Image.php(54): Kohana_Image_GD->__construct('')
+#2 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(220): Kohana_Image::factory('')
+#3 Z:\home\karpaty\www\application\classes\Controller\Backend\photogallery.php(56): Controller_Backend_Photogallery->_upload_img('')
+#4 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(84): Controller_Backend_Photogallery->action_add()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Backend_Photogallery))
+#7 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\karpaty\www\modules\image\classes\Kohana\Image\GD.php:91
+2014-10-19 10:53:26 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected T_STRING ~ APPPATH\views\Frontend\v_base_frontend.php [ 146 ] in file:line
+2014-10-19 10:53:26 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-10-19 11:48:26 --- CRITICAL: ErrorException [ 1 ]: Cannot use object of type Model_Subpage as array ~ APPPATH\views\Frontend\v_base_frontend.php [ 57 ] in file:line
+2014-10-19 11:48:26 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-10-19 11:50:45 --- CRITICAL: ErrorException [ 8 ]: Undefined property: Database_MySQL_Result::$texts ~ APPPATH\views\Frontend\v_base_frontend.php [ 57 ] in Z:\home\karpaty\www\application\views\Frontend\v_base_frontend.php:57
+2014-10-19 11:50:45 --- DEBUG: #0 Z:\home\karpaty\www\application\views\Frontend\v_base_frontend.php(57): Kohana_Core::error_handler(8, 'Undefined prope...', 'Z:\home\karpaty...', 57, Array)
+#1 Z:\home\karpaty\www\system\classes\Kohana\View.php(61): include('Z:\home\karpaty...')
+#2 Z:\home\karpaty\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\karpaty...', Array)
+#3 Z:\home\karpaty\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 Z:\home\karpaty\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\karpaty\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Frontend_Cooperation))
+#7 Z:\home\karpaty\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\karpaty\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\karpaty\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\karpaty\www\application\views\Frontend\v_base_frontend.php:57
